@@ -1,0 +1,47 @@
+   
+    .ChromePicker{
+        position: absolute;
+        bottom: 60px;
+        background:white;
+    } 
+    .ChromePicker.Text{
+        left:90px;
+    }
+    .ChromePicker.Bg{
+        left: 105px;
+    }
+    .ChromePicker.Prim{
+        left: 210px;
+    }
+    .ChromePicker.Sec{
+        left: 300px;
+    }
+    .ChromePicker.Acce{
+        left:420px;
+    }
+    
+    @media screen and (max-width: 1000px) {
+        .ChromePicker {
+        position: absolute;
+        
+        }   
+        .ChromePicker.Bg {
+            Bottom:248px;
+            left:60px;
+        }
+        .ChromePicker.Prim {
+            Bottom:248px;
+            left:60px;
+        }
+        .ChromePicker.Sec {
+            Bottom:248px;
+            left:60px;
+        }
+        .ChromePicker.Acce {
+            Bottom:248px;
+            left:60px;
+        }
+    }
+    
+
+

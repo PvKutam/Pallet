@@ -1,0 +1,87 @@
+.Main-column{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Column-title{
+    font-weight: 400;
+    z-index: 5;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.Sub-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; /* Updated property */
+    gap: 1rem;
+  }
+  
+
+@media screen and (max-width: 1000px){
+    .Sub-column{
+        flex-direction: column;
+        gap: 2em;
+    }
+}
+
+
+.Column-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    align-self: stretch; /* Ensure equal height within a row */
+    padding: 2.5rem;
+    gap: 1.5rem;
+    background-color: transparent;
+
+  }
+  
+
+  @media screen and (max-width: 1000px) {
+    .Column-card {
+      width: 100%;
+      padding: 1.5rem; /* Adjusted padding for small screens */
+    }
+  }
+  
+
+.Card-title{
+    font-weight: 500;
+    z-index: 5;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.Card-p{
+    font-size: large;
+    line-height: 2.25;
+    font-weight: 100;
+    background-color: transparent;
+
+}
+@media screen and (max-width:900px){
+    .Sub-column{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+.Card-img{
+    background-color: transparent;
+}
+

@@ -1,0 +1,32 @@
+.Footer{
+  display: flex;
+  flex-direction: column-reverse;
+  border-top-width: 2px;
+  gap: 0.75rem;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  border-top:1px solid white;
+  padding:20px
+
+}
+@media (min-width: 768px) {
+.Footer{
+  flex-direction: row;
+  justify-content: space-between;
+}
+}
+
+.subFooter{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:1.25rem;
+  
+  
+}
+.svg{
+  width:28px;
+  height:28px;
+  
+}

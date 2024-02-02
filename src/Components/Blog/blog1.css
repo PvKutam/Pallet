@@ -1,0 +1,60 @@
+.Main1{
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width:90%;
+    gap:2rem;
+    margin-bottom:6rem;
+    
+}
+.Main-h1{
+    font-size:50px;
+    letter-spacing:0;
+    font-weight:700;
+}
+.rectangle {
+    width: 50%; 
+    height: 20vh;
+    border-radius:10px;
+  }
+  
+
+.sub-main{
+    display:flex;
+    flex-direction:column;
+    align-item:flex-start;
+    width:60%;
+    /* small screen width 100% */
+}
+.submain-p{
+    letter-spacing:normal;
+    text-align:left;
+    line-height: 2.25;
+    margin: 0;
+    font-size:16px
+    /* fontsize */
+}
+.submain-div{
+  display:flex;
+  flex-direction: column;
+  align-items:flex-start;
+  gap:1rem;
+  margin-top:2rem; 
+}
+.submain-h2{
+    letter-spacing: 0;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    font-size:28px;
+
+}
+.submain-para{
+    letter-spacing: normal;
+    text-align: left;
+    line-height: 2.25;
+    margin: 0;
+
+}
