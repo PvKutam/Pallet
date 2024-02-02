@@ -49,12 +49,12 @@ export const Font = () => {
           <path
             d="M 0 6.5 H 13"
             stroke="black"
-            stroke-width="1.2"
+            strokeWidth="1.2"
           ></path>
           <path
             d="M 6.5 0 L 6.5 13"
             stroke="black"
-            stroke-width="1.2"
+            strokeWidth="1.2"
           ></path>
         </svg>
       </div>

@@ -13,12 +13,12 @@ const Why = () => {
         <circle cx="58.5"
     cy="58.5"
     r="58.5" fill={`${transparentprim2}`}  stroke= {`${Textclr}`} />
-    <path    fill-rule= "evenodd"   
-    clip-rule= "evenodd"
+    <path    fillRule= "evenodd"   
+    clipRule= "evenodd"
     d ="M 87.8217 7.86778 C 88.7499 8.40648 89.0469 9.59549 88.5152 10.5277 L 58.9095 62.429 C 58.4148 63.2962 57.3564 63.6658 56.4294 63.295 L 4.14483 42.3812 C 3.18375 41.9968 2.67153 40.9403 2.99938 39.9584 C 10.7533 16.7379 32.672 0 58.5 0 C 69.185 0 79.2009 2.86463 87.8217 7.86778 Z"
-    fill={`${Textclr}`}   stroke-width="4"fill-opacity= "0.6">   
+    fill={`${Textclr}`}   strokeWidth="4"fillOpacity= "0.6">   
     </path>
-    <path d="M 81.5 22.5 L 57.1395 64.8489 L 32 53.5" stroke-width="8" stroke-linejoin="round"stroke={`${Textclr}`} fill="none"></path>
+    <path d="M 81.5 22.5 L 57.1395 64.8489 L 32 53.5" strokeWidth="8" strokeLinejoin="round"stroke={`${Textclr}`} fill="none"></path>
       </svg>
 
                     <h2 className="Card-title" style={{ backgroundColor :`${prim}` ,color :`${Textclr}`}}>Save time</h2>
@@ -30,8 +30,8 @@ const Why = () => {
 
                 <svg width="112" height="114"  xmlns="http://www.w3.org/2000/svg"className="Card-img"  style={{ backgroundColor :`${prim}`}}>
         <rect width= "58" height= '58' rx="5" fill={`${Textclr}`} ></rect>
-        <rect x= "69" y= '25' width="33" height ="33" rx="5" fill={`${Textclr}`} fill-opacity="0.6"></rect>
-        <rect x= "69" y= '71'  height="43" width="43" rx="5" fill={`${Textclr}`} fill-opacity="0.1"></rect>
+        <rect x= "69" y= '25' width="33" height ="33" rx="5" fill={`${Textclr}`} fillOpacity="0.6"></rect>
+        <rect x= "69" y= '71'  height="43" width="43" rx="5" fill={`${Textclr}`} fillOpacity="0.1"></rect>
         <rect x= "20" y= '70'  height="39" width= "38" rx="5" fill={`${Textclr}`} ></rect>
       </svg>
                 <h2 className="Card-title" style={{ backgroundColor :`${prim}` ,color :`${Textclr}`}}>It's Realistic</h2>

@@ -69,8 +69,8 @@ return(
     style={{gap: "2px"}}>
         Color
         <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" className="Plus">
-                    <path d="M 0 6.5 H 13" stroke="black" stroke-width="1.2"></path>
-                    <path d="M 6.5 0 L 6.5 13" stroke="black" stroke-width="1.2"></path></svg>
+                    <path d="M 0 6.5 H 13" stroke="black" strokeWidth="1.2"></path>
+                    <path d="M 6.5 0 L 6.5 13" stroke="black" strokeWidth="1.2"></path></svg>
     </div>
 
     {Vert && 

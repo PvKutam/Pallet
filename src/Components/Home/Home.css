@@ -36,7 +36,7 @@
 
     .Font-effect{
         font-style: italic;
-        -webkit-text-stroke-width: 1px;
+        -webkit-text-strokeWidth: 1px;
         -webkit-text-stroke-color: white;
         color: transparent;
     }

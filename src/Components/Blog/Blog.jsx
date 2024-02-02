@@ -7,9 +7,9 @@ import { Main } from "../Toolbar/Colors/Main";
 
 
 export default function Blog(){
-    const {HeadingValue,BodyValue}= Main()
+    const {HeadingValue,BodyValue,prim, Sec}= Main()
     const gradientStyle = {
-        background: 'linear-gradient(to right, #ff0000, #00ff00)',
+        background: `linear-gradient(to right, ${prim}, ${Sec})`,
         // Other styles if needed
       };
       
